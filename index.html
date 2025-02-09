@@ -11,17 +11,38 @@
 </head>
 
 <body>
-  <h1>Title</h1>
-  <p>this a test conflict push commit</p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nobis in ipsa
-    sapiente, esse aliquid tenetur eaque temporibus at numquam, repudiandae
-    ipsum cupiditate quam quisquam ullam maiores? Aperiam, fugit quam.
-  </p>
-
-  <h2>Sean's change</h2>
-
-  <p>Sean's Lorem Changes</p>
+  <h1>Sign up</h1>
+  <form action="" method="get">
+    <fieldset>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username">
+      <label for="first-name">First Name</label>
+      <input type="text" name="first-name" id="first-name">
+      <label for="last-name">Last Name</label>
+      <input type="text" name="last-name" id="last-name">
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email">
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select> 
+      <label for="birthday">Birthday</label>
+      <input type="date" name="birthday" id="birthday">
+      <div>
+        <label for="height-feet">Feet</label>
+        <input type="number" name="height-feet" id="height-feet">
+        <label for="height-inches">Inches</label>
+        <input type="number" name="height-inches" id="height-inches">
+      </div>
+      <div>
+        <label for="weight">Weight in pounds</label>
+        <input type="number" name="weight" id="weight">
+      </div>
+      <input type="submit" value="Sign Up">
+    </fieldset>
+  </form>
 </body>
 
 </html>
