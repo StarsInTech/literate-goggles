@@ -24,5 +24,7 @@ form.addEventListener('submit', async (e) => {
   form.reset();
 });
 
+
+// Array for storing the data
 const user_form_data = []
 
