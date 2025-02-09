@@ -25,6 +25,4 @@ form.addEventListener('submit', async (e) => {
 });
 
 
-// Array for storing the data
-const user_form_data = []
 
